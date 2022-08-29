@@ -22,7 +22,7 @@ public class tester extends javax.swing.JFrame {
         initComponents();
         WebDriverManager.chromedriver().setup();
         try {
-            System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "./webdriver/chromedriver.exe");
             System.out.println("ok");
         } catch (Exception e) {
             System.out.println("fail");
